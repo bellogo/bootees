@@ -17,7 +17,7 @@
     box-sizing: border-box;
 }
 
-
+$titlefont: 'Tiempos Headline Bold';
 $themeColor : rgb(47, 184, 173);
 $themehover: rgb(52, 202, 190);
 $grey : rgb(229, 229, 229);
@@ -223,6 +223,64 @@ main {
         }
     }
 
+    .booking {
+        width: 100%;
+        padding: 90px 18px;
+        text-align: center;
+
+        .titlep {
+            font-family: $titlefont;
+            font-size: 28.8px;
+            padding: 24.12px 0px 0px;
+            margin: 0;
+            color: #2B2B2B;
+        }
+
+        .resp {
+            display: none;
+            font-family: $titlefont;
+            font-size: 19.14px;
+            padding: 23.316px 0px 16.53px 0px;
+            margin: 0;
+            color: #2B2B2B;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+
+            .item {
+                padding: 46.8px;
+                max-width: 500px;
+                text-align: left;
+
+                div {
+                    max-width: 243.84px;
+
+                    p {
+                        font-size: 10.8px;
+                        margin: 0px 0px 21.6px;
+                        color: #072C63;
+                    }
+                }
+
+                p {
+                    font-family: $titlefont;
+                    line-height: 1.5em;
+                    font-size: 25.92px;
+                    margin: 0px 0px 21.6px;
+                    color: #2B2B2B;
+                }
+
+                span {
+                    font-size: 14.4px;
+                    color: #5E6E7D;
+                }
+            }
+        }
+    }
+
 }
 
 @media screen and (max-width : 600px) {
@@ -328,5 +386,48 @@ main {
                 }
             }
         }
+
+        .booking {
+            padding: 66.99px 17.4px;
+            .titlep {
+                display: none;
+            }
+
+            .resp {
+                display: block;
+            }
+
+            .container {
+                // flex-wrap: wrap;
+                flex-direction: column;
+                width: 100%;
+                .item {
+                    width: 100%;
+                    padding: 25.056px;
+
+                    div {
+                        max-width: 100%;
+
+                        p {
+                            font-size: 10.44px;
+                            margin: 0px 0px 13.05px;
+                            color: #072C63;
+                        }
+                    }
+
+                    p {
+                        font-family: $titlefont;
+                        line-height: 1.5em;
+                        font-size: 19.14px;
+                        margin: 0px 0px 13.05px;
+                    }
+
+                    span {
+                        font-size: 12.18px;
+                    }
+                }
+            }
+        }
+
     }
 }

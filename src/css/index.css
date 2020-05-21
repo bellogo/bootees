@@ -243,6 +243,68 @@ main .explore .boxcontainers div p {
   color: white;
 }
 
+main .booking {
+  width: 100%;
+  padding: 90px 18px;
+  text-align: center;
+}
+
+main .booking .titlep {
+  font-family: "Tiempos Headline Bold";
+  font-size: 28.8px;
+  padding: 24.12px 0px 0px;
+  margin: 0;
+  color: #2B2B2B;
+}
+
+main .booking .resp {
+  display: none;
+  font-family: "Tiempos Headline Bold";
+  font-size: 19.14px;
+  padding: 23.316px 0px 16.53px 0px;
+  margin: 0;
+  color: #2B2B2B;
+}
+
+main .booking .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+main .booking .container .item {
+  padding: 46.8px;
+  max-width: 500px;
+  text-align: left;
+}
+
+main .booking .container .item div {
+  max-width: 243.84px;
+}
+
+main .booking .container .item div p {
+  font-size: 10.8px;
+  margin: 0px 0px 21.6px;
+  color: #072C63;
+}
+
+main .booking .container .item p {
+  font-family: "Tiempos Headline Bold";
+  line-height: 1.5em;
+  font-size: 25.92px;
+  margin: 0px 0px 21.6px;
+  color: #2B2B2B;
+}
+
+main .booking .container .item span {
+  font-size: 14.4px;
+  color: #5E6E7D;
+}
+
 @media screen and (max-width: 600px) {
   #burger {
     width: 21px;
@@ -333,6 +395,43 @@ main .explore .boxcontainers div p {
   }
   main .explore .boxcontainers div p {
     margin: 1% 0;
+  }
+  main .booking {
+    padding: 66.99px 17.4px;
+  }
+  main .booking .titlep {
+    display: none;
+  }
+  main .booking .resp {
+    display: block;
+  }
+  main .booking .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  main .booking .container .item {
+    width: 100%;
+    padding: 25.056px;
+  }
+  main .booking .container .item div {
+    max-width: 100%;
+  }
+  main .booking .container .item div p {
+    font-size: 10.44px;
+    margin: 0px 0px 13.05px;
+    color: #072C63;
+  }
+  main .booking .container .item p {
+    font-family: "Tiempos Headline Bold";
+    line-height: 1.5em;
+    font-size: 19.14px;
+    margin: 0px 0px 13.05px;
+  }
+  main .booking .container .item span {
+    font-size: 12.18px;
   }
 }
 /*# sourceMappingURL=index.css.map */
