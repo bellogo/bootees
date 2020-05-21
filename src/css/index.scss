@@ -67,7 +67,7 @@ nav {
         align-items: center;
         font-size: 11.8px;
         color: black;
-        // letter-spacing: 0.04em;
+        letter-spacing: 0.04em;
         font-weight: bold;
         margin-right: 10px;
 
@@ -177,6 +177,52 @@ main {
             }
         }
     }
+
+    .explore {
+        width: 100vw;
+        background-color: rgb(249, 250, 252);
+        padding: 85px;
+        text-align: center;
+
+        .topic {
+            font-size: 28.8px;
+            font-family: 'Tiempos Headline Bold';
+        }
+
+        .desc {
+            font-family: 'Helvetica 55 Roman';
+            font-size: 16.2px;
+            margin: 18px 0 0 0;
+        }
+
+        .boxcontainers {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            flex-wrap: nowrap;
+            padding: 0;
+
+            div {
+                text-align: center;
+                min-width: 105.4px;
+                padding: 0px 15px;
+                overflow: hidden;
+
+                p {
+                    position: relative;
+                    white-space: nowrap;
+                    top: 50%;
+                    margin: 5% 0;
+                    font-size: 19.8px;
+                    font-family: 'Helvetica 55 Roman';
+                    color: white;
+                }
+            }
+
+
+        }
+    }
+
 }
 
 @media screen and (max-width : 600px) {
@@ -257,6 +303,30 @@ main {
             }
         }
 
-    }
+        .explore {
+            padding: 80px 17px;
 
+            .topic {
+                font-size: 19.14px;
+            }
+
+            .desc {
+                font-size: 12.18px;
+                margin: 17.4px 0 0 0;
+            }
+
+            .boxcontainers {
+                display: flex;
+                flex-wrap: wrap;
+
+                div {
+                    width: 50%;
+
+                    p {
+                        margin: 1% 0;
+                    }
+                }
+            }
+        }
+    }
 }
