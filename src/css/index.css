@@ -432,6 +432,19 @@ main .landlord .landp {
 
 main .landlord a {
   white-space: nowrap;
+  color: #2fb8ad;
+  font-size: 14px;
+  text-decoration: none;
+  background-color: white;
+  padding: 13px 15px;
+  border-radius: 4px;
+  text-align: center;
+  width: 103.7px;
+}
+
+main .landlord a:hover {
+  background-color: #34cabe;
+  color: white;
 }
 
 main .newsletter {
@@ -694,21 +707,6 @@ main .newsletter form button:hover {
     line-height: 1.5em;
     min-width: 280px;
     max-width: 390.2px;
-  }
-  main .landlord a {
-    white-space: nowrap;
-    color: #2fb8ad;
-    font-size: 14px;
-    text-decoration: none;
-    background-color: white;
-    padding: 13px 15px;
-    border-radius: 4px;
-    text-align: center;
-    width: 103.7px;
-  }
-  main .landlord a:hover {
-    background-color: #34cabe;
-    color: white;
   }
   main .newsletter {
     padding: 87px 17.4px;

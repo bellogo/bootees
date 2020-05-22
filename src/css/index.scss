@@ -389,7 +389,19 @@ main {
 
         a {
             white-space: nowrap;
+            color: $themeColor;
+            font-size: 14px;
+            text-decoration: none;
+            background-color: white;
+            padding: 13px 15px;
+            border-radius: 4px;
+            text-align: center;
+            width: 103.7px;
 
+            &:hover {
+                background-color: $themehover;
+                color: white;
+            }
         }
     }
 
@@ -667,23 +679,6 @@ main {
                 min-width: 280px;
                 max-width: 390.2px;
 
-            }
-
-            a {
-                white-space: nowrap;
-                color: $themeColor;
-                font-size: 14px;
-                text-decoration: none;
-                background-color: white;
-                padding: 13px 15px;
-                border-radius: 4px;
-                text-align: center;
-                width: 103.7px;
-
-                &:hover {
-                    background-color: $themehover;
-                    color: white;
-                }
             }
         }
 
