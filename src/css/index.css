@@ -393,6 +393,56 @@ main .budget .budgetcont .buditem23 a:hover {
   color: white;
 }
 
+main .landlord {
+  background-color: rgba(62, 211, 163, 0.1);
+  padding: 90px 162px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .landlord .landt {
+  font-family: "Tiempos Headline Bold";
+  font-size: 28.8px;
+  margin: 0;
+  color: #2B2B2B;
+}
+
+main .landlord .landp {
+  text-align: center;
+  color: #2B2B2B;
+  font-size: 16.2px;
+  margin: 40.5px 0px 32.85px 0px;
+  line-height: 1.5em;
+  min-width: 280px;
+  max-width: 500px;
+}
+
+main .landlord a {
+  white-space: nowrap;
+  color: #2fb8ad;
+  font-size: 14px;
+  text-decoration: none;
+  background-color: white;
+  padding: 13px 15px;
+  border-radius: 4px;
+  text-align: center;
+  width: 103.7px;
+}
+
+main .landlord a:hover {
+  background-color: #34cabe;
+  color: white;
+}
+
 @media screen and (max-width: 600px) {
   #burger {
     width: 21px;
@@ -558,6 +608,34 @@ main .budget .budgetcont .buditem23 a:hover {
     font-size: 13.92px;
     margin: 0 0 39.15px;
     line-height: 1.6em;
+  }
+  main .landlord {
+    padding: 87px 17.4px;
+  }
+  main .landlord .landt {
+    font-size: 19.14px;
+  }
+  main .landlord .landp {
+    font-size: 12.18px;
+    margin: 9.57px 0px 31.7555px 0px;
+    line-height: 1.5em;
+    min-width: 280px;
+    max-width: 390.2px;
+  }
+  main .landlord a {
+    white-space: nowrap;
+    color: #2fb8ad;
+    font-size: 14px;
+    text-decoration: none;
+    background-color: white;
+    padding: 13px 15px;
+    border-radius: 4px;
+    text-align: center;
+    width: 103.7px;
+  }
+  main .landlord a:hover {
+    background-color: #34cabe;
+    color: white;
   }
 }
 /*# sourceMappingURL=index.css.map */

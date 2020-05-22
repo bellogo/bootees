@@ -285,14 +285,16 @@ main {
         background-color: #1D2432;
         padding: 90px 18px;
         width: 100%;
-        .budgetcont{
+
+        .budgetcont {
             padding: 0;
             margin: 0;
             display: flex;
             justify-content: flex-start;
-            .buditem1{
+
+            .buditem1 {
                 padding: 32.4px 90px;
-                
+
                 p {
                     color: white;
                     font-family: $titlefont;
@@ -301,6 +303,7 @@ main {
                     line-height: 1.45em;
                     margin: 0;
                 }
+
                 div {
                     height: 8px;
                     width: 97.2px;
@@ -308,32 +311,37 @@ main {
                     background-color: white;
                 }
             }
-            .buditem23{
+
+            .buditem23 {
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
                 padding: 32.4px 90px;
                 min-width: 351.3px;
                 max-width: 480px;
+
                 img {
                     width: 55px;
                     margin-bottom: 23px;
                 }
+
                 .budp {
                     font-size: 16.2px;
                     margin: 0 0 18.9px;
                     color: white;
                 }
-                p{
+
+                p {
                     font-size: 14.4px;
                     margin: 0 0 40.5px;
                     color: white;
                     line-height: 1.6em;
                 }
+
                 a {
                     width: 100%;
                     white-space: nowrap;
-                    color:$themeColor;
+                    color: $themeColor;
                     font-size: 14px;
                     text-decoration: none;
                     background-color: rgba(62, 211, 163, 0.1);
@@ -341,11 +349,57 @@ main {
                     // height: 43.2px;
                     border-radius: 4px;
                     text-align: center;
+
                     &:hover {
                         background-color: $themehover;
                         color: white;
                     }
                 }
+            }
+        }
+    }
+
+    .landlord {
+        background-color: rgba(62, 211, 163, 0.1);
+        padding: 90px 162px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .landt {
+            font-family: $titlefont;
+            font-size: 28.8px;
+            margin: 0;
+            color: #2B2B2B;
+        }
+
+        .landp {
+            text-align: center;
+            color: #2B2B2B;
+            font-size: 16.2px;
+            margin: 40.5px 0px 32.85px 0px;
+            line-height: 1.5em;
+            // padding: 0 25px 0 250px;
+            min-width: 280px;
+            max-width: 500px;
+
+        }
+
+        a {
+            white-space: nowrap;
+            color: $themeColor;
+            font-size: 14px;
+            text-decoration: none;
+            background-color: white;
+            padding: 13px 15px;
+            border-radius: 4px;
+            text-align: center;
+            width: 103.7px;
+
+            &:hover {
+                background-color: $themehover;
+                color: white;
             }
         }
     }
@@ -458,6 +512,7 @@ main {
 
         .booking {
             padding: 66.99px 17.4px;
+
             .titlep {
                 display: none;
             }
@@ -469,6 +524,7 @@ main {
             .container {
                 flex-direction: column;
                 width: 100%;
+
                 .item {
                     width: 100%;
                     padding: 25.056px;
@@ -496,41 +552,85 @@ main {
                 }
             }
         }
+
         .budget {
             padding: 87px 0;
-            .budgetcont{
+
+            .budgetcont {
                 width: 100%;
                 flex-direction: column;
-                .buditem1{
+
+                .buditem1 {
                     padding: 31.32px 28.71px;
-                    
+
                     p {
 
                         font-size: 36.54px;
                         width: 165px;
                     }
+
                     div {
                         width: 69.9px;
                         margin: 56.55px 0px 0px;
                     }
                 }
-                .buditem23{
+
+                .buditem23 {
                     padding: 31.32px 28.71px;
                     max-width: 100%;
+
                     img {
                         width: 55px;
                         margin-bottom: 23px;
                     }
+
                     .budp {
                         font-size: 15.66px;
                         margin: 0 0 13.05px;
                     }
-                    p{
+
+                    p {
                         font-size: 13.92px;
                         margin: 0 0 39.15px;
                         line-height: 1.6em;
                     }
-                    
+
+                }
+            }
+        }
+
+        .landlord {
+            padding: 87px 17.4px;
+
+            .landt {
+                font-size: 19.14px;
+            }
+    
+            .landp {
+                
+                font-size: 12.18px;
+                margin: 9.57px 0px 31.7555px 0px;
+                line-height: 1.5em;
+                // padding: 0 25px 0 250px;
+                min-width: 280px;
+                max-width: 390.2px;
+    
+            }
+    
+            a {
+                white-space: nowrap;
+                color: $themeColor;
+                font-size: 14px;
+                text-decoration: none;
+                background-color: white;
+                padding: 13px 15px;
+                border-radius: 4px;
+                text-align: center;
+                width: 103.7px;
+    
+                &:hover {
+                    background-color: $themehover;
+                    color: white;
                 }
             }
         }
