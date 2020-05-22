@@ -92,7 +92,6 @@ nav {
             background-color: $themeColor;
             border: none;
             border-radius: 4px;
-            // font-weight: bold;
             padding: 5px 18px 7px 18px;
 
             &:hover {
@@ -148,6 +147,10 @@ main {
                     padding: 11px 70px 11px 11px;
                     border-radius: 4px;
                     border-color: $grey;
+
+                    &:hover {
+                        border-color: rgb(177, 232, 228);
+                    }
                 }
 
                 button {
@@ -346,7 +349,6 @@ main {
                     text-decoration: none;
                     background-color: rgba(62, 211, 163, 0.1);
                     padding: 13px 17px;
-                    // height: 43.2px;
                     border-radius: 4px;
                     text-align: center;
 
@@ -380,7 +382,6 @@ main {
             font-size: 16.2px;
             margin: 40.5px 0px 32.85px 0px;
             line-height: 1.5em;
-            // padding: 0 25px 0 250px;
             min-width: 280px;
             max-width: 500px;
 
@@ -388,18 +389,69 @@ main {
 
         a {
             white-space: nowrap;
-            color: $themeColor;
-            font-size: 14px;
-            text-decoration: none;
-            background-color: white;
-            padding: 13px 15px;
-            border-radius: 4px;
-            text-align: center;
-            width: 103.7px;
 
-            &:hover {
-                background-color: $themehover;
+        }
+    }
+
+    .newsletter {
+        background-color: #F9FAFC;
+        padding: 90px 162px;
+        text-align: center;
+        width: 100%;
+
+        .newst {
+            font-family: $titlefont;
+            font-size: 28.8px;
+            color: #2B2B2B;
+            margin: 0;
+        }
+
+        .newsp {
+            font-size: 16.2px;
+            color: #2B2B2B;
+            margin: 5px 28px 40.5px;
+            line-height: 1.6em;
+        }
+
+        form {
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: center;
+
+            input {
+                padding: 4px 11px;
+                height: 43.2px;
+                width: 376.31px;
+                border: 1px solid $grey;
+                border-radius: 4px;
+
+
+                &:hover {
+                    border-color: rgb(177, 232, 228);
+                }
+            }
+
+            input::placeholder {
+                color: rgb(221, 221, 221);
+                font-weight: bold;
+            }
+
+            button {
+                height: 43.2px;
                 color: white;
+                font-size: 14px;
+                border: none;
+                background-color: $themeColor;
+                padding: 13px 15px;
+                border-radius: 4px;
+                text-align: center;
+                width: 120.49px;
+                margin-left: 7.2px;
+
+                &:hover {
+                    background-color: $themehover;
+                    color: white;
+                }
             }
         }
     }
@@ -605,18 +657,18 @@ main {
             .landt {
                 font-size: 19.14px;
             }
-    
+
             .landp {
-                
+
                 font-size: 12.18px;
                 margin: 9.57px 0px 31.7555px 0px;
                 line-height: 1.5em;
                 // padding: 0 25px 0 250px;
                 min-width: 280px;
                 max-width: 390.2px;
-    
+
             }
-    
+
             a {
                 white-space: nowrap;
                 color: $themeColor;
@@ -627,7 +679,7 @@ main {
                 border-radius: 4px;
                 text-align: center;
                 width: 103.7px;
-    
+
                 &:hover {
                     background-color: $themehover;
                     color: white;
@@ -635,5 +687,25 @@ main {
             }
         }
 
+        .newsletter {
+            padding: 87px 17.4px;
+
+            .newst {
+                font-size: 19.14px;
+            }
+
+            .newsp {
+                font-size: 12.18px;
+                margin: 0px 0px 9.57px;
+            }
+
+            form {
+
+                margin: 0px 38.2px;
+
+            }
+        }
+
     }
+
 }

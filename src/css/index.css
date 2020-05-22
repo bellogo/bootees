@@ -170,6 +170,10 @@ main .banner .searchForm form select {
   border-color: #e5e5e5;
 }
 
+main .banner .searchForm form select:hover {
+  border-color: #b1e8e4;
+}
+
 main .banner .searchForm form button {
   cursor: pointer;
   white-space: nowrap;
@@ -428,17 +432,86 @@ main .landlord .landp {
 
 main .landlord a {
   white-space: nowrap;
-  color: #2fb8ad;
+}
+
+main .newsletter {
+  background-color: #F9FAFC;
+  padding: 90px 162px;
+  text-align: center;
+  width: 100%;
+}
+
+main .newsletter .newst {
+  font-family: "Tiempos Headline Bold";
+  font-size: 28.8px;
+  color: #2B2B2B;
+  margin: 0;
+}
+
+main .newsletter .newsp {
+  font-size: 16.2px;
+  color: #2B2B2B;
+  margin: 5px 28px 40.5px;
+  line-height: 1.6em;
+}
+
+main .newsletter form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .newsletter form input {
+  padding: 4px 11px;
+  height: 43.2px;
+  width: 376.31px;
+  border: 1px solid #e5e5e5;
+  border-radius: 4px;
+}
+
+main .newsletter form input:hover {
+  border-color: #b1e8e4;
+}
+
+main .newsletter form input::-webkit-input-placeholder {
+  color: #dddddd;
+  font-weight: bold;
+}
+
+main .newsletter form input:-ms-input-placeholder {
+  color: #dddddd;
+  font-weight: bold;
+}
+
+main .newsletter form input::-ms-input-placeholder {
+  color: #dddddd;
+  font-weight: bold;
+}
+
+main .newsletter form input::placeholder {
+  color: #dddddd;
+  font-weight: bold;
+}
+
+main .newsletter form button {
+  height: 43.2px;
+  color: white;
   font-size: 14px;
-  text-decoration: none;
-  background-color: white;
+  border: none;
+  background-color: #2fb8ad;
   padding: 13px 15px;
   border-radius: 4px;
   text-align: center;
-  width: 103.7px;
+  width: 120.49px;
+  margin-left: 7.2px;
 }
 
-main .landlord a:hover {
+main .newsletter form button:hover {
   background-color: #34cabe;
   color: white;
 }
@@ -636,6 +709,19 @@ main .landlord a:hover {
   main .landlord a:hover {
     background-color: #34cabe;
     color: white;
+  }
+  main .newsletter {
+    padding: 87px 17.4px;
+  }
+  main .newsletter .newst {
+    font-size: 19.14px;
+  }
+  main .newsletter .newsp {
+    font-size: 12.18px;
+    margin: 0px 0px 9.57px;
+  }
+  main .newsletter form {
+    margin: 0px 38.2px;
   }
 }
 /*# sourceMappingURL=index.css.map */
