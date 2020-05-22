@@ -305,6 +305,94 @@ main .booking .container .item span {
   color: #5E6E7D;
 }
 
+main .budget {
+  background-color: #1D2432;
+  padding: 90px 18px;
+  width: 100%;
+}
+
+main .budget .budgetcont {
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+main .budget .budgetcont .buditem1 {
+  padding: 32.4px 90px;
+}
+
+main .budget .budgetcont .buditem1 p {
+  color: white;
+  font-family: "Tiempos Headline Bold";
+  font-size: 37.8px;
+  max-width: 232.31px;
+  line-height: 1.45em;
+  margin: 0;
+}
+
+main .budget .budgetcont .buditem1 div {
+  height: 8px;
+  width: 97.2px;
+  margin: 58.5px 0px 0px;
+  background-color: white;
+}
+
+main .budget .budgetcont .buditem23 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 32.4px 90px;
+  min-width: 351.3px;
+  max-width: 480px;
+}
+
+main .budget .budgetcont .buditem23 img {
+  width: 55px;
+  margin-bottom: 23px;
+}
+
+main .budget .budgetcont .buditem23 .budp {
+  font-size: 16.2px;
+  margin: 0 0 18.9px;
+  color: white;
+}
+
+main .budget .budgetcont .buditem23 p {
+  font-size: 14.4px;
+  margin: 0 0 40.5px;
+  color: white;
+  line-height: 1.6em;
+}
+
+main .budget .budgetcont .buditem23 a {
+  width: 100%;
+  white-space: nowrap;
+  color: #2fb8ad;
+  font-size: 14px;
+  text-decoration: none;
+  background-color: rgba(62, 211, 163, 0.1);
+  padding: 13px 17px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+main .budget .budgetcont .buditem23 a:hover {
+  background-color: #34cabe;
+  color: white;
+}
+
 @media screen and (max-width: 600px) {
   #burger {
     width: 21px;
@@ -432,6 +520,44 @@ main .booking .container .item span {
   }
   main .booking .container .item span {
     font-size: 12.18px;
+  }
+  main .budget {
+    padding: 87px 0;
+  }
+  main .budget .budgetcont {
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  main .budget .budgetcont .buditem1 {
+    padding: 31.32px 28.71px;
+  }
+  main .budget .budgetcont .buditem1 p {
+    font-size: 36.54px;
+    width: 165px;
+  }
+  main .budget .budgetcont .buditem1 div {
+    width: 69.9px;
+    margin: 56.55px 0px 0px;
+  }
+  main .budget .budgetcont .buditem23 {
+    padding: 31.32px 28.71px;
+    max-width: 100%;
+  }
+  main .budget .budgetcont .buditem23 img {
+    width: 55px;
+    margin-bottom: 23px;
+  }
+  main .budget .budgetcont .buditem23 .budp {
+    font-size: 15.66px;
+    margin: 0 0 13.05px;
+  }
+  main .budget .budgetcont .buditem23 p {
+    font-size: 13.92px;
+    margin: 0 0 39.15px;
+    line-height: 1.6em;
   }
 }
 /*# sourceMappingURL=index.css.map */

@@ -281,6 +281,75 @@ main {
         }
     }
 
+    .budget {
+        background-color: #1D2432;
+        padding: 90px 18px;
+        width: 100%;
+        .budgetcont{
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: flex-start;
+            .buditem1{
+                padding: 32.4px 90px;
+                
+                p {
+                    color: white;
+                    font-family: $titlefont;
+                    font-size: 37.8px;
+                    max-width: 232.31px;
+                    line-height: 1.45em;
+                    margin: 0;
+                }
+                div {
+                    height: 8px;
+                    width: 97.2px;
+                    margin: 58.5px 0px 0px;
+                    background-color: white;
+                }
+            }
+            .buditem23{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                padding: 32.4px 90px;
+                min-width: 351.3px;
+                max-width: 480px;
+                img {
+                    width: 55px;
+                    margin-bottom: 23px;
+                }
+                .budp {
+                    font-size: 16.2px;
+                    margin: 0 0 18.9px;
+                    color: white;
+                }
+                p{
+                    font-size: 14.4px;
+                    margin: 0 0 40.5px;
+                    color: white;
+                    line-height: 1.6em;
+                }
+                a {
+                    width: 100%;
+                    white-space: nowrap;
+                    color:$themeColor;
+                    font-size: 14px;
+                    text-decoration: none;
+                    background-color: rgba(62, 211, 163, 0.1);
+                    padding: 13px 17px;
+                    // height: 43.2px;
+                    border-radius: 4px;
+                    text-align: center;
+                    &:hover {
+                        background-color: $themehover;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+
 }
 
 @media screen and (max-width : 600px) {
@@ -398,7 +467,6 @@ main {
             }
 
             .container {
-                // flex-wrap: wrap;
                 flex-direction: column;
                 width: 100%;
                 .item {
@@ -425,6 +493,44 @@ main {
                     span {
                         font-size: 12.18px;
                     }
+                }
+            }
+        }
+        .budget {
+            padding: 87px 0;
+            .budgetcont{
+                width: 100%;
+                flex-direction: column;
+                .buditem1{
+                    padding: 31.32px 28.71px;
+                    
+                    p {
+
+                        font-size: 36.54px;
+                        width: 165px;
+                    }
+                    div {
+                        width: 69.9px;
+                        margin: 56.55px 0px 0px;
+                    }
+                }
+                .buditem23{
+                    padding: 31.32px 28.71px;
+                    max-width: 100%;
+                    img {
+                        width: 55px;
+                        margin-bottom: 23px;
+                    }
+                    .budp {
+                        font-size: 15.66px;
+                        margin: 0 0 13.05px;
+                    }
+                    p{
+                        font-size: 13.92px;
+                        margin: 0 0 39.15px;
+                        line-height: 1.6em;
+                    }
+                    
                 }
             }
         }
