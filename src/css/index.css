@@ -609,6 +609,26 @@ main .footer .foot a {
   color: rgba(255, 255, 255, 0.6);
 }
 
+main .survey {
+  position: fixed;
+  margin: 0 15px 15px 0;
+  bottom: 0px;
+  right: 0px;
+  width: 43.2px;
+  height: 43.2px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #2fb8ad;
+  border: none;
+  border-radius: 100%;
+  padding: 8px;
+}
+
+main .survey:hover {
+  background-color: #34cabe;
+}
+
 @media screen and (max-width: 600px) {
   #burger {
     width: 21px;
@@ -825,6 +845,10 @@ main .footer .foot a {
   }
   main .footer .foot a {
     font-size: 12.18px;
+  }
+  main .survey {
+    width: 41.75px;
+    height: 41.75px;
   }
 }
 /*# sourceMappingURL=index.css.map */
