@@ -468,6 +468,67 @@ main {
         }
     }
 
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        background-color: #141414;
+        padding: 70.2px 90px;
+        width: 100%;
+
+        .contact {
+            flex-grow: 6;
+            min-width: 216px;
+
+            img {
+                max-width: 100px;
+                margin-bottom: 15px;
+            }
+
+            p {
+                font-size: 12.6px;
+                margin: 12.6px 0;
+                color: rgba(255, 255, 255, 0.6);
+
+                a {
+                    text-decoration: none;
+                    color: $themeColor;
+                }
+            }
+
+            .social {
+                display: flex;
+                justify-content: flex-start;
+
+                img {
+                    height: 16px;
+                    margin-right: 14.4px;
+                }
+            }
+        }
+
+        .foot {
+            padding-right: 20px;
+            flex-grow: 1;
+            float: right;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+
+            p {
+                color: white;
+                font-size: 12.6px;
+                margin: 0px 0px 12.6px;
+            }
+
+            a {
+                font-size: 12.2px;
+                padding: 12px 0px;
+                text-decoration: none;
+                color: rgba(255, 255, 255, 0.6);
+            }
+        }
+    }
+
 }
 
 @media screen and (max-width : 600px) {
@@ -698,6 +759,41 @@ main {
 
                 margin: 0px 38.2px;
 
+            }
+        }
+
+        .footer {
+            flex-wrap: wrap;
+            padding: 33.93px 27.84px;
+            width: 100%;
+
+            .contact {
+                margin-bottom: 28.71px;
+                width: 100%;
+
+
+                p {
+                    font-size: 12.18px;
+                }
+
+                .social {
+
+                    img {
+                        margin: 0 14.1px 0 0;
+                    }
+                }
+            }
+
+            .foot {
+                padding-right: 0px;
+
+                p {
+                    font-size: 12.18px;
+                }
+
+                a {
+                    font-size: 12.18px;
+                }
             }
         }
 
