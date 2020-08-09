@@ -545,7 +545,7 @@ main .footer .contact {
   -webkit-box-flex: 6;
       -ms-flex-positive: 6;
           flex-grow: 6;
-  min-width: 216px;
+  min-width: 237px;
 }
 
 main .footer .contact img {
