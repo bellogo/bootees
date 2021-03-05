@@ -1,6 +1,6 @@
 # BOOTEES
 
-This is a replica of an existing site https://fibre.ng/. built with my brand name 'BooTees'.
+This is a replica of an existing site https://fibre.ng/ built with a differet brand name.
 
 ## Built With
 
@@ -11,10 +11,6 @@ This is a replica of an existing site https://fibre.ng/. built with my brand nam
 
 [Live Demo Link](https://bootees.netlify.app/)
 
-
-### Prerequisites
-
-none
 
 ## Authors
 
@@ -33,4 +29,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is bela licensed.
+This project is [MIT](lic.url) licensed.
